@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ config.name }}</title>
+
+    <meta name="author" content="{{ config.name }}">
+    <meta name="description" content="{{ config.name }}'s Portfolio">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="https://unpkg.com/blocks.css@0.3.0/dist/blocks.min.css" />
+    <link rel="icon" href="{{ favicon }}">
+
+    <style>
+        * {
+            font-family: system-ui, sans-serif;
+        }
+        .title {
+            margin-right: 35%;
+            margin-left: 35%;
+        }
+        .subtitle {
+            margin-right: 25%;
+            margin-left: 25%;
+        }
+        .tab {
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+        .project {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    </style>
+</head>
+<body>
+    {{ content }}
+</body>
+</html>

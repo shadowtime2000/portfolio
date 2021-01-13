@@ -1,0 +1,5 @@
+{
+    "name": "Eta",
+    "description": "A fast embedded template engine for Browser, Node, and Deno",
+    "website": "https://eta.js.org"
+}

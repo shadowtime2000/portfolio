@@ -1,0 +1,20 @@
+---
+layout: base.liquid
+---
+
+<h1 class="title block">{{ config.name }}</h1>
+<h2 class="subtitle block">{{ config.bio }}</h2>
+
+<h3 class="block tab">Projects</h3>
+
+<div>
+    {% for project in projects %}
+        <div class="project card fixed block">
+            <h4>{{ project.name }}</h4>
+            <p>{{ project.description }}</p>
+            <a target="_blank" href="{{ project.website }}" class="block">
+                {{ project.name }} Website
+            </a>
+        </div>
+    {% endfor %}
+</div>

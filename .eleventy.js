@@ -4,7 +4,7 @@ const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
 
-    eleventyConfig.addPlugin(tinyCss);
+    eleventyConfig.addPlugin(tinyCss, { output: "dist" });
 
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
         if (outputPath.endsWith(".html")) {

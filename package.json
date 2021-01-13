@@ -16,6 +16,7 @@
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "@greyskullrocks/eleventy-plugin-tinycss": "^1.3.2"
+    "@greyskullrocks/eleventy-plugin-tinycss": "^1.3.2",
+    "html-minifier": "^4.0.0"
   }
 }
